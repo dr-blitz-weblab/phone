@@ -1,0 +1,31 @@
+{
+    "name": "drblitz/phone",
+    "description": "Adds phone number functionality to TYPO3. Crate f.link.phone helper with the definition  ITU-T INTERNATIONAL,NATIONAL,E123",
+    "type": "typo3-cms-extension",
+    "autoload": {
+        "psr-4": {
+            "DrBlitz\\Phone\\": "Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "DR BLITZ WEBLAB",
+            "email": "office@drblitz-weblab.com",
+            "homepage": "https://drblitz-weblab.com/",
+            "role": "Company"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "giggsey/libphonenumber-for-php" : "^8.13",
+        "typo3/cms-core": "^11.5 || ^12.3"
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "extension-key": "phone"
+        }
+    }
+}
