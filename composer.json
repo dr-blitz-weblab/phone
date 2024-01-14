@@ -9,6 +9,12 @@
     },
     "authors": [
         {
+            "name": "Krzysztof Napora",
+            "email": "k.napora@drblitz-weblab.com",
+            "homepage": "https://drblitz-weblab.com/",
+            "role": "Developer"
+        },
+        {
             "name": "DR BLITZ WEBLAB",
             "email": "office@drblitz-weblab.com",
             "homepage": "https://drblitz-weblab.com/",
