@@ -15,7 +15,7 @@ final class PhoneViewHelper extends AbstractTagBasedViewHelper
     {
         $this->registerUniversalTagAttributes();
         $this->registerArgument('phoneNumber', 'string', 'phone number', true);
-        $this->registerArgument('region', 'string', 'phone number', true);
+        $this->registerArgument('region', 'string', 'country', true);
         $this->registerArgument('format', 'int', 'The desired format', true);
     }
 
