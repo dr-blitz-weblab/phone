@@ -24,7 +24,7 @@ final class PhoneViewHelper extends AbstractViewHelper
         array                     $arguments,
         \Closure                  $renderChildrenClosure,
         RenderingContextInterface $renderingContext
-    ): mixed
+    )
     {
         $search = [];
         $replace = [];
