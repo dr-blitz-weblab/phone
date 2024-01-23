@@ -25,7 +25,7 @@ $ composer require drblitz/phone
 ### EXAMPLE 1 - NATIONAL format
 
 ```html
-{wb:link.phone(class:'contact-item__link',phoneNumber:data.tx_projectcore_phone, region:'pl', format: 2,)}
+{wb:link.phone(class:'contact-item__link',phoneNumber:data.tx_projectcore_phone, region:'pl', format: 2)}
 ```
 return 
 ```html
@@ -34,7 +34,7 @@ return
 ### EXAMPLE 2 - INTERNATIONAL format
 
 ```html
-{wb:link.phone(class:'contact-item__link',phoneNumber:data.tx_projectcore_phone, region:'pl', format: 1,)}
+{wb:link.phone(class:'contact-item__link',phoneNumber:data.tx_projectcore_phone, region:'pl', format: 1)}
 ```
 
 return
@@ -46,7 +46,7 @@ return
 ### EXAMPLE 3 - E164 format
 
 ```html
-{wb:link.phone(class:'contact-item__link',phoneNumber:data.tx_projectcore_phone, region:'pl', format: 0,)}
+{wb:link.phone(class:'contact-item__link',phoneNumber:data.tx_projectcore_phone, region:'pl', format: 0)}
 ```
 
 return
