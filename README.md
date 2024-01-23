@@ -54,3 +54,8 @@ return
 ```html
 <a class="contact-item__link" href="tel:+48-12-333-44-01">+48123334401</a>
 ```
+
+### EXAMPLE 4 - The use of the ViewHelper with CE Textpic.
+```html
+{wb:format.phone(value: data.bodytext, region:'de', format: 2)->f:format.html(parseFuncTSPath: 'lib.parseFunc')
+```
